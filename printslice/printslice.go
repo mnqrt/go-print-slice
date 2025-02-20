@@ -8,6 +8,7 @@ func PrintSlice(slice []int) {
 	for _, v := range slice {
 		fmt.Print(v,  " ")
 	}
+	fmt.Println("\n")
 }
 
 func Print2DSlice(slice [][]int) {
@@ -17,4 +18,5 @@ func Print2DSlice(slice [][]int) {
 		}
 		fmt.Println()
 	}
+	fmt.Println("\n")
 }
