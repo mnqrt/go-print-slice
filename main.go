@@ -1,12 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/mnqrt/go-print-slice/printslice"
+)
 
 func main() {
 	fmt.Println("HALOO")
-	PrintFormat("BEBEK")
-}
-
-func PrintFormat(s string) {
-	fmt.Println("---", s, "---")
+	printslice.PrintFormat("BEBEK")
 }
